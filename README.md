@@ -11,6 +11,14 @@ go get com.github/finnlee87/go-job-lite
 
 ## How to use
 
+### 1. init database
+
+execute db/init.sql in mysql db.
+
+### 2. modify config/default.yml in the project.
+
+### 3. Write code like example.
+
 ```go
 func main() {
 	jobEngine := engine.Default()
@@ -42,3 +50,4 @@ func (example ExampleJob) Execute() error {
 	return nil
 }
 ```
+
