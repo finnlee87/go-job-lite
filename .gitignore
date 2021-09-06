@@ -1,0 +1,29 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+delivery-service
+
+# Vendor modules
+vendor
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# junit report
+junit_*.xml
+
+# editor
+.vscode
+.idea
+
+# env
+.env*
+!.env.example
+!.env.unittest
+
+*.iml

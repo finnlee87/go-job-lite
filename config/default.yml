@@ -1,0 +1,7 @@
+ginMode: debug
+port: 9000
+token:
+  timeout: 7200
+
+job:
+  mysql: root:123456@tcp(localhost:3306)/job?charset=utf8mb4&loc=Local
