@@ -1,7 +1,7 @@
 package main
 
 import (
-	"com.github/finnlee87/go-job-lite/engine"
+	"github.com/finnlee87/go-job-lite/engine"
 )
 
 func main() {

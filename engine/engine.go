@@ -1,10 +1,10 @@
 package engine
 
 import (
-	"com.github/finnlee87/go-job-lite/job"
-	"com.github/finnlee87/go-job-lite/lib"
 	"context"
 	"fmt"
+	"github.com/finnlee87/go-job-lite/job"
+	"github.com/finnlee87/go-job-lite/lib"
 	"github.com/gin-gonic/gin"
 	"github.com/gorhill/cronexpr"
 	"os"
@@ -92,7 +92,7 @@ func (engine *Engine) Run() {
 				now := time.Now()
 				second := now.Second()
 				lockSecond := second / engine.JobLoopInterval * engine.JobLoopInterval
-				lib.Logger.Printf("second %d", second)
+				lib.Logger.Debugf("second %d", second)
 				var secondStr string
 				if second < 10 {
 					secondStr = "0" + strconv.Itoa(lockSecond)

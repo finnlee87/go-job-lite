@@ -1,9 +1,9 @@
 package engine
 
 import (
-	"com.github/finnlee87/go-job-lite/lib"
-	"com.github/finnlee87/go-job-lite/model"
 	"database/sql"
+	"github.com/finnlee87/go-job-lite/lib"
+	"github.com/finnlee87/go-job-lite/model"
 	"time"
 )
 

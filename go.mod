@@ -1,4 +1,4 @@
-module com.github/finnlee87/go-job-lite
+module github.com/finnlee87/go-job-lite
 
 go 1.14
 

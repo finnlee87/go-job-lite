@@ -1,6 +1,6 @@
 package main
 
-import "com.github/finnlee87/go-job-lite/lib"
+import "github.com/finnlee87/go-job-lite/lib"
 
 type ExampleJob1 struct {
 
